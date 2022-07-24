@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Neue Bit";
+    src: url("../fonts/Bitmap Font Pack/PPNeueBit-Bold.otf") format("opentype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Neue Montreal";
+    src: url("../fonts/neuemontzreal/NeueMontreal-Medium.otf") format("opentype");
+    font-weight: normal;
+}
+.intro {
+    top: 50%;
+    left: 50%;
+    margin-left: 8%;
+    margin-top: 5.5%;
+}
+
+body{
+    font-family: "Neue Bit";
+    background-color: #dbdbdb;
+}
+
+.nav-main{
+    background-color: #0800FF;
+    height: 4em;
+    width: 100%;
+}
+
+.links{
+    margin: auto;
+}
+
+#home{
+    color: white;
+}
+
+a.nav-link{
+    color: #ffffff;
+    font-family: "Neue Montreal";
+    font-size: 20px;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+
+.contact{
+    text-align: right;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0.25em;
+}
+
+.contact:hover, a.nav-link:hover{
+    color: #c2c1c1;
+}
