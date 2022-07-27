@@ -1,3 +1,4 @@
 **/.idea
 *.bak
 **/.ipynb_checkpoints
+**/data
