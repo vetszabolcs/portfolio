@@ -102,3 +102,21 @@ html {
   scroll-behavior: smooth;
 }
 
+.btn{
+    position: relative;
+    bottom: 2.75em;
+    left: 90%;
+    color: #dbdbdb;
+    background-color: #0800FF;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+}
+.btn:hover{
+    color: #0800FF;
+    background-color: #ababab;
+}
+#top-arrow, #top-arrow:visited, #top-arrow:active{
+    color: inherit;
+    text-decoration: none;
+}
