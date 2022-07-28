@@ -1,18 +1,3 @@
-@font-face {
-    font-family: "Neue Bit";
-    src: url("../fonts/Bitmap Font Pack/PPNeueBit-Bold.otf") format("opentype");
-    font-weight: normal;
-}
-@font-face {
-    font-family: "Neue Montreal";
-    src: url("../fonts/neuemontzreal/NeueMontreal-Medium.otf") format("opentype");
-    font-weight: normal;
-}
-
-body{
-    font-family: "Neue Montreal";
-}
-
 .intro{
     font-family: "Neue Bit";
     margin-bottom: 0.8em;
@@ -24,8 +9,7 @@ body{
 .project-container {
     display: grid;
     grid-template-columns: auto auto;
-    margin-left: 17%;
-    margin-right: 17%;
+    margin: 5% 17% 0 17%;
 }
 
 .main-tite{
