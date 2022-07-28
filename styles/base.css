@@ -8,7 +8,10 @@
     src: url("../fonts/neuemontzreal/NeueMontreal-Medium.otf") format("opentype");
     font-weight: normal;
 }
-
+@keyframes change-color {
+    50% {color: white}
+    100% {color: black}
+}
 
 .intro {
     top: 50%;
@@ -98,3 +101,4 @@ button:active {
 html {
   scroll-behavior: smooth;
 }
+
