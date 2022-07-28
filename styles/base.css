@@ -13,17 +13,17 @@
     100% {color: black}
 }
 
+body{
+    font-family: "Neue Montreal";
+    background-color: #dbdbdb;
+    font-size: 20px;
+}
+
 .intro {
     top: 50%;
     left: 50%;
     margin-left: 8%;
     margin-top: 5.5%;
-}
-
-body{
-    font-family: "Neue Montreal";
-    background-color: #dbdbdb;
-    font-size: 20px;
 }
 
 nav{
