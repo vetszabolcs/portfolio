@@ -1,15 +1,17 @@
 .intro{
     font-family: "Neue Bit";
-    margin-bottom: 0.8em;
+    margin-bottom: 10px;
     font-size: 100px;
     color: #0800FF;
     line-height: 60px;
 }
 
 .project-container {
+    width: 1200px;
     display: grid;
-    grid-template-columns: auto auto;
-    margin: 5% 17% 0 17%;
+    place-items: center;
+    grid-template-columns: 50% 50%;
+    margin: 5% 19% 0 19%;
 }
 
 .main-tite{
@@ -27,6 +29,8 @@ img{
     background-color: whitesmoke;
     height: 500px;
     width: 500px;
+    margin-bottom: 5%;
+
 }
 .temp{
     padding-top: 40%;
