@@ -1,15 +1,19 @@
 /*customization*/
 
-#content{
-	width: 90% !important;
-	justify-content: center !important;
-	margin: auto !important;
-}
+/*#main{*/
+/*	padding-top: 2% !important;*/
+/*}*/
+/*#content{*/
+/*	width: 90% !important;*/
+/*	justify-content: center !important;*/
+/*	margin: auto !important;*/
+/*}*/
 .posts{
 	justify-content: center;
+	padding-bottom: 4% !important;
 }
 .posts article{
-	padding-top: 2% !important;
+	padding-top: 4% !important;
 	padding-bottom: 0 !important;
 }
 #intro{
@@ -23,10 +27,15 @@
 .icons.alt{
 	text-align: left;
 }
+#footer{
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
 #copyright{
 	height: 1em;
 	color: #717981 !important;
-	margin-top: 1em !important;
+	margin-top: 0 !important;
 	margin-bottom: 0 !important;
+	padding-top: 2% !important;
 }
 
