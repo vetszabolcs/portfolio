@@ -1,7 +1,17 @@
 /*customization*/
 
-
-
+#content{
+	width: 90% !important;
+	justify-content: center !important;
+	margin: auto !important;
+}
+.posts{
+	justify-content: center;
+}
+.posts article{
+	padding-top: 2% !important;
+	padding-bottom: 0 !important;
+}
 #intro{
 	padding-bottom: 20% !important;
 }
@@ -9,17 +19,6 @@
 .date{
  	display: none !important;
 }
-/*#contact-me{*/
-/*	text-align: center;*/
-/*}*/
-/*#footer {*/
-/*	padding-top: 0px;*/
-/*	padding-bottom: 0px;*/
-/*}*/
-
-/*.contact-section{*/
-/*	padding: 1.5%;*/
-/*}*/
 
 .icons.alt{
 	text-align: left;
@@ -31,7 +30,3 @@
 	margin-bottom: 0 !important;
 }
 
-article img{
-	width: 450px;
-	height: 500px;
-}
