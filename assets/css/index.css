@@ -10,7 +10,8 @@
 /*}*/
 .posts{
 	justify-content: center;
-	padding-bottom: 4% !important;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
 }
 .posts article{
 	padding-top: 4% !important;
@@ -27,9 +28,15 @@
 .icons.alt{
 	text-align: left;
 }
+
+
 #footer{
 	padding-top: 0 !important;
 	padding-bottom: 0 !important;
+}
+.split.contact section{
+	padding-top: 3% !important;
+	padding-bottom: 3% !important;
 }
 #copyright{
 	height: 1em;
