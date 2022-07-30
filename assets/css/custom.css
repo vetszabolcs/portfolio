@@ -9,25 +9,24 @@
 .date{
  	display: none !important;
 }
-#contact-me{
-	text-align: center;
-}
-#footer {
-	padding-top: 0px;
-	padding-bottom: 0px;
-}
-.alt{
-	display: flex;
-	width: 100%;
-	justify-content: center;
-}
-.contact-section{
-	padding: 1.5%;
-}
+/*#contact-me{*/
+/*	text-align: center;*/
+/*}*/
+/*#footer {*/
+/*	padding-top: 0px;*/
+/*	padding-bottom: 0px;*/
+/*}*/
 
+/*.contact-section{*/
+/*	padding: 1.5%;*/
+/*}*/
+
+.icons.alt{
+	text-align: left;
+}
 #copyright{
 	height: 1em;
-	color: black !important;
+	color: #717981 !important;
 	margin-top: 1em !important;
 	margin-bottom: 0 !important;
 }

@@ -7,7 +7,6 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -3387,7 +3386,7 @@ input, select, textarea {
 				}
 
 		#intro h1 {
-			font-size: 3rem;
+			font-size: 5rem;
 			line-height: 1;
 		}
 
@@ -3398,41 +3397,41 @@ input, select, textarea {
 			text-align: center;
 		}
 
-		/*#intro + #header {*/
-		/*	margin-top: -20rem;*/
-		/*}*/
+		#intro + #header {
+			margin-top: -20rem;
+		}
 
-		/*	#intro + #header .logo {*/
-		/*		-moz-transform: translateY(2rem);*/
-		/*		-webkit-transform: translateY(2rem);*/
-		/*		-ms-transform: translateY(2rem);*/
-		/*		transform: translateY(2rem);*/
-		/*		opacity: 0;*/
-		/*		visibility: hidden;*/
-		/*	}*/
+			#intro + #header .logo {
+				-moz-transform: translateY(2rem);
+				-webkit-transform: translateY(2rem);
+				-ms-transform: translateY(2rem);
+				transform: translateY(2rem);
+				opacity: 0;
+				visibility: hidden;
+			}
 
-		/*#intro.hidden {*/
-		/*	pointer-events: none;*/
-		/*	-moz-transform: translateY(2rem);*/
-		/*	-webkit-transform: translateY(2rem);*/
-		/*	-ms-transform: translateY(2rem);*/
-		/*	transform: translateY(2rem);*/
-		/*	-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, visibility 0.5s;*/
-		/*	-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, visibility 0.5s;*/
-		/*	-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, visibility 0.5s;*/
-		/*	transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;*/
-		/*	opacity: 0;*/
-		/*	visibility: hidden;*/
-		/*}*/
+		#intro.hidden {
+			pointer-events: none;
+			-moz-transform: translateY(2rem);
+			-webkit-transform: translateY(2rem);
+			-ms-transform: translateY(2rem);
+			transform: translateY(2rem);
+			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, visibility 0.5s;
+			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, visibility 0.5s;
+			-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, visibility 0.5s;
+			transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
+			opacity: 0;
+			visibility: hidden;
+		}
 
-		/*	#intro.hidden + #header .logo {*/
-		/*		-moz-transform: translateY(0);*/
-		/*		-webkit-transform: translateY(0);*/
-		/*		-ms-transform: translateY(0);*/
-		/*		transform: translateY(0);*/
-		/*		opacity: 1;*/
-		/*		visibility: visible;*/
-		/*	}*/
+			#intro.hidden + #header .logo {
+				-moz-transform: translateY(0);
+				-webkit-transform: translateY(0);
+				-ms-transform: translateY(0);
+				transform: translateY(0);
+				opacity: 1;
+				visibility: visible;
+			}
 
 		body.is-preload #intro {
 			-moz-transform: translateY(2rem);

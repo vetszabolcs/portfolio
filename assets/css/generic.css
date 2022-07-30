@@ -8,14 +8,32 @@
     text-align: left;
 }
 
-#profpic{
-    width: 25%;
-    float: right;
-    margin-left: 5%;
-    margin-top: 2%;
-}
+
 #welcome{
     margin-top: auto;
     margin-bottom: auto;
     text-align: left;
+}
+
+#profpic-lg {
+    width: 300px;
+    float: right;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#profpic-sm {
+    display: flex;
+    width: 300px;
+    float: bottom;
+    margin: 7.5% auto 0;
+}
+@media screen and (max-width: 950px) {
+    #profpic-lg {
+    display: none;
+  }
+}
+@media screen and (min-width: 950px) {
+    #profpic-sm {
+    display: none;
+  }
 }
