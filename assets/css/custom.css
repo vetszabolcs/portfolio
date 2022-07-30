@@ -1,0 +1,38 @@
+/*customization*/
+
+
+
+#intro{
+	padding-bottom: 20% !important;
+}
+
+.date{
+ 	display: none !important;
+}
+#contact-me{
+	text-align: center;
+}
+#footer {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.alt{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+.contact-section{
+	padding: 1.5%;
+}
+
+#copyright{
+	height: 1em;
+	color: black !important;
+	margin-top: 1em !important;
+	margin-bottom: 0 !important;
+}
+
+article img{
+	width: 450px;
+	height: 500px;
+}

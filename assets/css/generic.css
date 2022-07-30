@@ -1,0 +1,21 @@
+#header {
+    height: 100px;
+    padding-bottom: 0px;
+}
+
+.major h3{
+    text-transform: initial !important;
+    text-align: left;
+}
+
+#profpic{
+    width: 25%;
+    float: right;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#welcome{
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+}
